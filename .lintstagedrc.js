@@ -2,6 +2,6 @@ module.exports = {
   '*.{js,jsx,ts,tsx}': [
     'next lint --fix --file', 
     "eslint --ignore-pattern '!**/.lintstagedrc.js'", 
-    "npm test -- --passRelatedTests --maxWorkers=50%"
+    "npm test -- --passWithNoTests --maxWorkers=50%"
   ]
 };
