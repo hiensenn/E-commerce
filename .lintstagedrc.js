@@ -1,7 +1,7 @@
 module.exports = {
-  // Lint & Prettify TS and JS files
-  '*.{js,jsx,ts,tsx}': (filenames) => [
-    `prettier --write ${filenames.join(' ')}`,
-    `npm run lint --fix . ${filenames.join(' --file')}`
+  '*.{js,jsx,ts,tsx}': [
+    'next lint --fix --file', 
+    "eslint --ignore-pattern '!**/.lintstagedrc.js'", 
+    "npm test -- --passWithNoTests --maxWorkers=50%"
   ]
-}
+};
