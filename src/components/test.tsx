@@ -8,7 +8,7 @@ describe('<Main />', ()=>{
 
         //busca o elemento e verifica a existencia
         expect(
-            screen.getByRole('heading', {name: /Hello, World!/i})
+            screen.getByRole('heading', {name: /Hello, World/i})
     ).toBeInTheDocument()
 
 
