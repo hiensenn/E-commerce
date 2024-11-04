@@ -7,7 +7,6 @@ module.exports = {
     '!src/app/**', 
     '!src/lib/registry.tsx',
     '!src/types/**',
-    '!src/**/stories.tsx',
     '!src/styles/**'
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
