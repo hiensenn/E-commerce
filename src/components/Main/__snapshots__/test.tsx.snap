@@ -39,7 +39,7 @@ exports[`<Main /> should render the heading 1`] = `
   <img
     alt="Imagem de um átomo e React Avançado escrito ao lado."
     class="c1"
-    src="/img/logo.svg"
+    src="./biblioteca.png"
   />
   <h1
     class="c2"
@@ -54,7 +54,7 @@ exports[`<Main /> should render the heading 1`] = `
   <img
     alt="Um desenvolvedor de frente para uma tela com código."
     class="c4"
-    src="/img/hero-illustration.svg"
+    src="./livro.png"
   />
 </main>
 `;
