@@ -16,6 +16,7 @@ This project uses lot of stuff as:
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [WorkFlow do CI com o Github Acions](https://github.com/features/actions)
 
 ## Getting Started
 
