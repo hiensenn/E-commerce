@@ -17,7 +17,7 @@ Este projeto utiliza diversas ferramentas e tecnologias, incluindo:
 - **Eslint**
 - **Prettier**
 - **Husky**
-- **Contrução do workflow de CI com github Actions
+- **Contrução do workflow de CI com github Actions**
 
 ---
 
