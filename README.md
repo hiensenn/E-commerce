@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Next.js Boilerplate - React Avançado Course
+Este é um boilerplate Next.js desenvolvido para ser utilizado no curso React Avançado.
 
-## Getting Started
+📦 O que está incluído?
+Este projeto utiliza diversas ferramentas e tecnologias, incluindo:
 
-First, run the development server:
+TypeScript
+NextJS
+Styled Components
+Jest
+React Testing Library
+Storybook
+Eslint
+Prettier
+Husky
+🚀 Como iniciar
+Primeiro, rode o servidor de desenvolvimento:
 
-```bash
+bash
+Copiar código
 npm run dev
-# or
+
+# ou
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abra http://localhost:3000 em seu navegador para ver o resultado.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Você pode começar a editar a página modificando pages/index.js. A página será atualizada automaticamente à medida que você edita o arquivo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛠️ Comandos
+dev: inicia o aplicativo em localhost:3000
+build: cria a versão de produção
+start: inicia um servidor simples com o código de produção
+lint: executa o linter em todos os componentes e páginas
+test: executa testes em todos os componentes e páginas com Jest
+test:watch: executa o Jest no modo de observação
+storybook: roda o Storybook em localhost:6006
+build-storybook: cria a versão de build do Storybook
+📚 Saiba mais
+Para saber mais sobre Next.js, consulte os recursos abaixo:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Documentação do Next.js - saiba mais sobre as funcionalidades e API do Next.js.
+Learn Next.js - um tutorial interativo sobre Next.js.
+Repositório do Next.js no GitHub - feedbacks e contribuições são bem-vindos!
+☁️ Deploy no Vercel
+A forma mais fácil de fazer deploy da sua aplicação Next.js é usar a plataforma Vercel, dos criadores do Next.js.
 
-## Learn More
+Consulte a documentação de deployment do Next.js para mais detalhes.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Esse README fornece uma visão geral e as instruções essenciais para que outros desenvolvedores possam entender e iniciar o projeto rapidamente!
