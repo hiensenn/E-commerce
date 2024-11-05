@@ -1,4 +1,4 @@
-# **Next.js Boilerplate - React Avançado Course**
+# **Next.js Boilerplate - React Avançado**
 
 Este é um boilerplate Next.js desenvolvido para ser utilizado no curso **React Avançado**.
 
@@ -17,6 +17,7 @@ Este projeto utiliza diversas ferramentas e tecnologias, incluindo:
 - **Eslint**
 - **Prettier**
 - **Husky**
+- **Contrução do workflow de CI com github Actions
 
 ---
 
